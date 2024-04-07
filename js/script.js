@@ -97,7 +97,11 @@ typeWriter ();
 // Define a function to be executed when the hash tag changes
 function handleHashChange () {
   const newHash = window.location.hash.substring (1); // Remove the '#' character
-
+  if(newHash == ''){
+    window.location = "#home"
+    return
+  }
+  
   if (isGood) {
     if (newHash == 'home') {
       return;
