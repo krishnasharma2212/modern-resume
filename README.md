@@ -1,4 +1,5 @@
 # Modern Portfolio Website
+<img src="/file/image1.png" alt="Home Page" width="500">
 ```
   _____                                
  |  __ \                               
@@ -19,6 +20,5 @@ This is amazing personal website/portfolio template made by Krishna Sharma! It's
 
 ## 🖼️: **Demo Images**
 
-<img src="/demo_images/image_home.png" alt="Home Page" width="500"> <img src="/demo_images/image_checkout.png" alt="Checkout Page" width="500">
 
 
