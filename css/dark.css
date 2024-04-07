@@ -1,0 +1,890 @@
+/*
+*	 Author: bslthemes
+*	 Author URL: http://themeforest.net/user/bslthemes
+*/
+
+/* TABLE OF CONTENTS
+	1. Template Dark
+*/
+
+/* 1. Template Dark */
+body {
+	color: rgba(255, 255, 255, 0.55);
+	background: #26262d;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,0.25);
+}
+
+.background {
+	background-color: #26262d;
+}
+
+.border-line-v:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 90%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 90%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 90%);
+}
+
+.border-line-h:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-latest .row.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.lnks:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.full-style .lnks:before {
+	opacity: 1;
+}
+
+.lnk,
+.button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.lnk:before,
+.button:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.full-style .lnk:before,
+.full-style .button:before {
+	opacity: 1;
+}
+
+.lnk .arrow:before,
+.button .arrow:before,
+.lnk .arrow:after,
+.button .arrow:after {
+	background: rgba(255, 255, 255, 0.85);
+}
+
+a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+th {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+td {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input,
+textarea,
+button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .menu-btn {
+	color: rgba(255, 255, 255, 0.9);
+	background: #31313a;
+}
+
+.header .top-menu ul li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .menu-btn span, .header .menu-btn span:before, .header .menu-btn span:after {
+	background: rgba(255, 255, 255, 0.85);
+}
+
+.header .top-menu ul li a:before {
+	background: -moz-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at right, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.header .top-menu ul li a .icon {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 1240px) {
+	.header .top-menu {
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+	}
+
+	.header .top-menu ul li a:before {
+		background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+}
+
+@media (max-width: 680px) {
+.header {
+	background: #31313a;
+}
+}
+
+.card-started:before {
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-started:after {
+	background: #31313a;
+	opacity: 0.3;
+}
+
+.card-started .profile {
+	background: #31313a;
+}
+
+.card-started .profile .slide:before,
+.card-started .profile .slide:after {
+	background: #31313a;
+}
+
+.card-started .profile .title {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.card-started .profile .social a .ion,
+.card-started .profile .social a .fab,
+.card-started .profile .social a .fas {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.card-inner,
+.custom-footer,
+.menu-centered.header {
+	background: #31313a;
+}
+
+.card-started .profile .image img {
+	border-color: #31313a;
+}
+
+.card-inner:before,
+.card-inner:after {
+	background: #31313a;
+}
+
+.content .title {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content .title:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.info-list ul li strong {
+	color: #323232;
+}
+
+.service-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.service-items .service-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 560px) {
+	.service-items .col:after {
+		background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+
+}
+
+.pricing-items .pricing-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .number {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .dollar,
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.pricing-items .pricing-item .feature-list ul li {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .feature-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.fuct-items .fuct-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.resume-title .icon,
+.skill-title .icon {
+	background: transparent;
+}
+
+.resume-title .name,
+.skill-title .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.resume-items .resume-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list ul li .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list ul li .progress {
+	background: #3e4148;
+}
+
+.skills-list.dotted ul li .progress .dg span, .skills-list.dotted ul li .progress .da span {
+	background: #3e4148;
+}
+
+.skills-list.circles .progress {
+	background: #3e4148;
+}
+
+.skills-list.circles .progress span {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list.circles .progress:after {
+	background-color: #31313a;
+}
+
+.content.works .filter-menu .f_btn {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content.works .grid-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.box-item .desc .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-wrap.popup-box-inline .mfp-close {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-wrap.popup-box-inline,
+.mfp-content .info-list ul li strong {
+	background: #31313a;
+}
+
+.post-box .blog-detail {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.post-box .blog-content blockquote {
+	color: rgba(255, 255, 255, 0.55);
+	border-left: none;
+}
+
+.post-box .blog-content ul.list-style li {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-box .post-comments li .comment-info .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li .comment-info .name a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li .comment-info .name h6 span {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.background.gradient {
+	background: -webkit-linear-gradient(top left, #17171b 0%, #28282f 100%);
+	background: linear-gradient(to bottom right, #17171b 0%, #28282f 100%);
+}
+
+.bg-bubbles li {
+	background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.content .title .first-word {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content .title:first-letter {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.info-list ul li strong:after {
+	background: #31313a;
+}
+
+.content.blog .border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-comments .post-comment:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.info-list ul li:before {
+	background: -moz-radial-gradient(center, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at center, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.pager .nav-links {
+	background: rgba(0,0,0,0.1);
+}
+
+input, textarea, button, input[type="submit"] {
+	border-color: #666;
+}
+
+.content-sidebar {
+	background: #31313a;
+}
+
+.content-sidebar .close {
+	background: #3b3b42;
+}
+
+.content-sidebar .close:before, .content-sidebar .close:after {
+	background: rgba(255,255,255,0.85);
+}
+
+.content-sidebar .widget ul li a,
+.content-sidebar .widget ol li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content-sidebar h2.widget-title,
+.content-sidebar h2 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.search-form input.search-field,
+.wp-block-search input[type=search] {
+	border-color: #666;
+}
+
+.search-form input.search-submit,
+.wp-block-search .wp-block-search__button {
+	filter: brightness(0) invert(1);
+}
+
+.content-sidebar .widget ul li,
+.content-sidebar .widget ol li {
+	border-color: rgba(255,255,255,0.15);
+}
+
+.content-sidebar .widget ul li:last-child,
+.content-sidebar .widget ol li:last-child {
+	border-color: rgba(255,255,255,0.15);
+}
+
+.resume-items .resume-item .date {
+	color: #666;
+	border-color: #666;
+}
+
+.post-comments .post-comment .desc span.comment-reply a {
+	color: rgba(255,255,255,0.9);
+}
+
+.post-comments .post-comment .desc span.comment-reply {
+	color: rgba(255,255,255,0.9);
+}
+
+.navigation.post-navigation .nav-links a:hover {
+	color: #ddd;
+}
+
+.post-comments ul.children {
+	background: #3b3b42;
+}
+
+.preloader {
+	background: #3b3b42;
+}
+
+@media (max-width: 1240px) {
+	.blog-single .info-list ul li, .content.contacts .info-list ul li {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.content.contacts .info-list ul, .blog-single .info-list ul {
+		margin: -11px 0 0 0;
+	}
+
+	.blog-single .info-list ul {
+		margin: -11px 0 30px 0;
+	}
+}
+
+.content-sidebar .main-menu ul li a {
+	color: rgba(255,255,255,0.9);
+}
+
+.content-sidebar .main-menu ul li:after, .content-sidebar .main-menu ul li:first-child::before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.button {
+	padding: 0;
+	background: transparent;
+}
+
+.button .text {
+	padding-left: 0;
+}
+
+.profile .main-menu-fixed:before {
+	background: #31313a;
+}
+
+.profile .main-menu ul li a {
+	color: rgba(255,255,255,0.9);
+}
+
+.profile .main-menu .menu-main-menu-container ul li a:hover, .profile .main-menu .menu-main-menu-container ul li a:hover .icon {
+    color: rgba(255,255,255,0.9);
+}
+
+.header .profile .title {
+	color: rgba(255,255,255,0.9);
+}
+
+input[type="submit"] {
+	border-color: #44454c;
+	background: #44454c;
+	color: #fff;
+}
+
+input[type="submit"]:hover {
+	border-color: #4b4c54;
+	background: #4b4c54;
+}
+
+@media (max-width: 680px) {
+.header .top-menu:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.header .top-menu ul.menu {
+	background: #31313a;
+}
+}
+
+.revs-item .text,
+.revs-two-item .text {
+	color: rgba(255,255,255,0.9);
+}
+
+.revs-item .text:before, .revs-item .text:after,
+.revs-two-item .text:after {
+	background: url(../images/quote_d.svg) no-repeat;
+	background-size: contain;
+}
+
+.revs-item .info .name,
+.revs-two-item .info .name {
+	color: rgba(255,255,255,0.9);
+}
+
+.revs-item .info .company,
+.revs-two-item .info .company {
+	color: #999999;
+}
+
+.fc-calendar .fc-content span.fc-date {
+	background: #3e4148;
+}
+
+.custom-header {
+	border-bottom-color: rgba(197, 202, 213, 0.15)!important;
+}
+
+.custom-header .custom-month {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.fc-calendar .fc-body {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-row {
+	border-bottom-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-row > div {
+	border-right-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-content span.fc-date {
+	background: #3e4148;
+}
+
+.custom-content-reveal {
+	background: rgba(33, 33, 33, 1);
+}
+
+.custom-content-reveal .event-name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-content-reveal span.custom-content-close {
+	background: transparent!important;
+}
+
+/*
+	New Woocommerce Styles
+*/
+
+.header .cart-btn {
+	background: #31313a;
+}
+
+.header .cart-btn .cart-icon {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .cart-btn .cart-icon .cart-count {
+	color: #fff;
+}
+
+.header .cart-btn .cart-widget {
+	background: #31313a;
+}
+
+.header .cart-btn .cart-widget:before {
+	border-right-color: 6px solid #31313a;
+}
+
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a,
+ul.cart_list li a,
+ul.product_list_widget li a {
+	color: #fff;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-mini-cart__buttons #respond input#submit:hover,
+.woocommerce-mini-cart__buttons a.button:hover,
+.woocommerce-mini-cart__buttons button.button:hover,
+.woocommerce-mini-cart__buttons input.button:hover {
+	background-color: #dfdcde;
+	color: #515151;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+	background-color: transparent;
+	color: inherit;
+}
+
+.woocommerce ul.products.border-line-v:before,
+.woocommerce ul.products.border-line-v:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce ul.products.border-line-v:after,
+.woocommerce ul.products.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce ul.products li.product .price {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background: none;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce .woocommerce-review-link {
+	color: #999999;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.woocommerce #reviews #comments ol.commentlist li:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+time.woocommerce-review__published-date {
+	color: #999;
+}
+
+.woocommerce table.shop_table {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th {
+    border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+.woocommerce table.shop_table th {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce table.shop_table td {
+	border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+.woocommerce table.shop_table td a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce a.remove {
+	color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.woocommerce ul.products li.product .button.add_to_cart_button.added {
+	color: #fff;
+}
+
+.select2-container .select2-selection--single {
+	color: rgba(255, 255, 255, 0.9);
+	border-color: #4c4c54;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce-MyAccount-navigation ul:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link.is-active {
+	background: #4c4c54;
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link.is-active a {
+	color: rgba(255, 255, 255, 1);
+}
+
+.select2-dropdown {
+	background-color: #4c4c54;
+	border-color: #4c4c54;
+}
+
+.select2-results__option {
+	color: rgba(255,255,255,0.9);
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true] {
+	background: rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th {
+	border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+	background: #4c4c54;
+}
+
+.woocommerce .woocommerce-customer-details address {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+.header .top-menu {
+	background-color: #31313a;
+}
+
+.header .top-menu.menu-minimal ul li a .name,
+.header .cart-btn .cart-icon .cart-count,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
+.woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce #respond input#submit, .woocommerce a.button,
+.woocommerce button.button, .woocommerce input.button .woocommerce-mini-cart__buttons #respond input#submit,
+.woocommerce-mini-cart__buttons a.button, .woocommerce-mini-cart__buttons button.button,
+.woocommerce-mini-cart__buttons input.button,
+.woocommerce span.onsale,
+.woocommerce .woocommerce-ordering select {
+	color: #323232!important;
+}
+
+.theme-style-classic.theme-style-dark .info-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-content .info-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mode-switch-btn {
+	background: #31313a;
+}
+
+/*style blured*/
+.theme-style-blured .card-inner {
+	background: -webkit-linear-gradient(top, rgba(49,49,58,0) 75%, rgba(49,49,58,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(49,49,58,0) 75%, rgba(49,49,58,1) 100%) !important;
+}
+.body-style-gradient .theme-style-blured .menu-centered.header:after {
+	background: -webkit-linear-gradient(top, rgba(49,49,58,0.5) 75%, rgba(49,49,58,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(49,49,58,0.5) 75%, rgba(49,49,58,1) 100%) !important;
+}
+
+/*style textured*/
+.card-started .profile.full-style .lnk, 
+.card-started .profile.full-style .button {
+	color: #fff;
+}
+.rprof-after path:nth-child(3) {
+	fill: #31313a;
+}
+.textured-icons-style .service-items .service-item .icon,
+.textured-icons-style .pricing-items .pricing-item .icon,
+.textured-icons-style .fuct-items .fuct-item .icon,
+.textured-icons-style .resume-title .icon,
+.textured-icons-style .skill-title .icon {
+	background-color: #31313a !important;
+}
+
+/*x-icon*/
+.card-started .profile .social a .ion path,
+.card-started .profile .social a .fab path,
+.card-started .profile .social a .fas path {
+	fill: rgba(255, 255, 255, 0.9);
+}
+
+/*hamburger menu*/
+.header .hamburger-menu-btn span, 
+.header .hamburger-menu-btn span::before, 
+.header .hamburger-menu-btn span::after {
+    background: rgba(255, 255, 255, 0.85);
+}
